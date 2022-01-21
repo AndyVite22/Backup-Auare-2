@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Registrarse</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html"><img src="images/logo.png "width="110px" ></a></h1>					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Inicio</a></li>
+							<li>
+								<a href="#" class="icon solid fa-angle-down">Elementos</a>
+								<ul>
+									<li><a href="generic.html">Nosotros</a></li>
+									<li><a href="contact.html">Registrarse</a></li>
+									
+								</ul>
+							</li>
+							<li><a href="iniciarsesion.html" class="button">Iniciar Sesión</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<section id="main" class="container medium">
+					<header>
+						<h2>Registrate</h2>
+						<p>Arquitectura y Desarrollo de Infraestructura para la Salud.</p>
+					</header>
+					<div class="box">
+						<form method="post" action="insertarusuarios.php">
+							<div class="row gtr-uniform gtr-50">
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="nombre" id="nombre" value="" placeholder="Nombre" required/>
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="apellido" id="apellido" value="" placeholder="Apellido" required/>
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<input type="email" name="email" id="email" value="" placeholder="Correo Electronico" required/>
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="telefono" id="telefono" value="" placeholder="Teléfono" required/>
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<input type="password" name="password" id="password" value="" placeholder="Contraseña" required/>
+								</div>
+								
+								<div class="col-12"> 
+									<select name="category" id="category" required>
+										<option value="">- Estado -</option>
+										<option value="Aguascalientes">Aguascalientes</option>
+										<option value="Baja California">Baja California</option>
+										<option value="Baja California Sur">Baja California Sur</option>
+										<option value="Campeche">Campeche</option>
+										<option value="Chiapas">Chiapas</option>
+										<option value="Chihuahua">Chihuahua</option>
+										<option value="Coahuila">Coahuila de Zaragoza</option>
+										<option value="Colima">Colima</option>
+										<option value="Durango">Durango</option>
+										<option value="Estado de Mexico">Estado de México</option>
+										<option value="Guanajuato">Guanajuato</option>
+										<option value="Guerrero">Guerrero</option>
+										<option value="Hidalgo">Hidalgo</option>
+										<option value="Jalisco">Jalisco</option>
+										<option value="Michoacan">Michoacán de Ocampo</option>
+										<option value="Morelos">Morelos</option>
+										<option value="Nayarit">Nayarit</option>
+										<option value="Nuevo Leon">Nuevo León</option>
+										<option value="Oaxaca">Oaxaca</option>
+										<option value="Puebla">Puebla</option>
+										<option value="Queretaro">Querétaro</option>
+										<option value="Quintana Roo">Quintana Roo</option>
+										<option value="SLP">San Luis Potosí</option>
+										<option value="Sinaloa">Sinaloa</option>
+										<option value="Sonora">Sonora</option>
+										<option value="Tabasco">Tabasco</option>
+										<option value="Tamaulipas">Tamaulipas</option>
+										<option value="Tlaxcala">Tlaxcala</option>
+										<option value="Veracruz">Veracruz</option>
+										<option value="Yucatan">Yucatán</option>
+										<option value="Zacatecas">Zacatecas</option>
+										
+
+									</select>
+								</div>
+								<div class="col-4 col-12-narrower">
+									<input type="radio" id="priority-low" name="priority" value="Asesoria" required>
+									<label for="priority-low">Asesoría</label>
+								</div>
+								<div class="col-4 col-12-narrower">
+									<input type="radio" id="priority-normal" name="priority" value="Diseño de proyecto" required>
+									<label for="priority-normal">Diseño de proyecto</label>
+								</div>
+								<div class="col-4 col-12-narrower">
+									<input type="radio" id="priority-high" name="priority" value="Desarrollo Proyecto" required>
+									<label for="priority-high">Desarrollo de proyecto ejecutivo</label>
+									
+								</div>
+								
+								
+								
+								
+								<div class="col-12">
+									<ul class="actions">
+										<li><input type="submit" value="Registrarse" /></li>
+										<li><input type="reset" value="Limpiar" class="alt" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://twitter.com/auaremx" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/auaremx/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.youtube.com/channel/UCpPyg3ciG7EGPTOMFZ-sgIQ" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+					<li><a href="https://www.pinterest.com.mx/auaremx/_saved/" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+						
+					</ul>
+					<ul class="copyright">
+						<li>&copy; AUARE Arquitectura y Bienestar S.C</li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
